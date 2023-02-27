@@ -4,14 +4,14 @@
  * @ab: integer input
  * Return: absolute value of ab
  */
-int _abs(int x)
+int _abs(int ab)
 {
-	if (x < 0)
+	if (ab < 0)
 	{
-		return (x-(x*2));
+		return (ab - (ab * 2));
 	}
 	else
 	{
-		return (x);
+		return (ab);
 	}
 }
