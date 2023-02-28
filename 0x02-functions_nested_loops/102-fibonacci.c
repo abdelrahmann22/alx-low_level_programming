@@ -8,23 +8,23 @@
 
 int main(void)
 {
-	int first = 1;
-	int second = 2;
-	int next = first + second;
+	long int first = 1;
+	long int second = 2;
+	long int next = first + second;
 	int count = 3;
 
-	printf("%d, ", first);
-	printf("%d, ", second);
+	printf("%lu, ", first);
+	printf("%lu, ", second);
 
 	while (count <= 50)
 	{
-		if (count == 0)
+		if (count == 50)
 		{
-			printf("%d \n", next);
+			printf("%lu \n", next);
 		}
 		else
 		{
-			printf("%d, ", next);
+			printf("%lu, ", next);
 		}
 
 		first = second;
