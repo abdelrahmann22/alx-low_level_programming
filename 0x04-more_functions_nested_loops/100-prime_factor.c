@@ -5,9 +5,10 @@
  * main - prints largest prime factor.
  * Return: Always 0.
  */
+
 int main(void)
 {
-	long long int n, fp;
+	long int n, fp;
 
 	n = 612852475143;
 	for (fp = 2; fp <= n; fp++)
