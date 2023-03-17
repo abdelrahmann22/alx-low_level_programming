@@ -24,7 +24,7 @@ void puts_half(char *str)
 	}
 	else if (count % 2 != 0)
 	{
-		count = (count - 1) / 2;
+		count = (count + 1) / 2;
 		while (*(str + count) != '\0')
 		{
 			_putchar(*(str + count));
