@@ -37,7 +37,7 @@ void _print(char *str, int l)
  */
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 {
-	int j, k, mul, mulrem, add, addrem;	
+	int j, k, mul, mulrem, add, addrem;
 
 	mulrem = addrem = 0;
 	for (j = num_index, k = dest_index; j >= 0; j--, k--)
@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3 || check_for_digits(argv))
 	{
-        for (ti = 0; e[ti]; ti++)
+		for (ti = 0; e[ti]; ti++)
 			putchar(e[ti]);
 		exit(98);
 	}
