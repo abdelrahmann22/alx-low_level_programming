@@ -15,12 +15,10 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0)
 		return (NULL);
-	
-	for(c = i = 0; i < ac; i++)
+	for (c = i = 0; i < ac; i++)
 	{
 		if (av[i] == NULL)
 			return (NULL);
-		
 		for (j = 0; av[i][j] != '\0'; j++)
 			c++;
 		c++;
@@ -33,7 +31,6 @@ char *argstostr(int ac, char **av)
 		free(aout);
 		return(NULL);
 	}
-
 	for (i = j = ia = 0; ia < c; j++, ia++)
 	{
 		if (av[i][j] == '\0')
