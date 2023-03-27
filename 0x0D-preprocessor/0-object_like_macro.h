@@ -3,4 +3,6 @@
 
 #define SIZE 1024
 
+#define Pi 3.14159265359
+
 #endif
