@@ -4,10 +4,9 @@
  *
  *Return: always 0
 */
+
 int main(void)
 {
-	#define __File__
-
-	printf("%s", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
