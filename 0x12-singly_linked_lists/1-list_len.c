@@ -6,15 +6,17 @@
  * 
  * Return: number of elements in h
 */
+
 size_t list_len(const list_t *h)
 {
-	size_t s = 0;
-	
-	while(h)
-	{
-		n++;
+	list_t *temp;
+	int count = 0;
 
-		h = h->next;
+	temp = h;
+	while (temp)
+	{
+		count++;
+		temp = temp->next;
 	}
-	return (n);
+	return (count);
 }
